@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .first {
+            background-color: red;
+            width: 12vw;
+            height: 12vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .second {
+            background-color: green;
+            width: 12vw;
+            height: 12vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .third {
+            background-color: blue;
+            width: 12vw;
+            height: 12vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading">
+            <h1>CSS (Inline, Internal and External)</h1>
+            <p>(This heading is styled using External CSS)</p>
+        </div>
+        <div class="section center-all">
+            <div class="section1 center-all">
+                <div class="first">
+                    <div class="content">
+                        <h4>First</h4>
+                        <p>This Box is styled by Internal CSS</p>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="content">
+                        <h4>Second</h4>
+                        <p>This Box is styled by Internal CSS</p>
+                    </div>
+                </div>
+                <div class="third">
+                    <div class="content">
+                        <h4>Third</h4>
+                        <p>This Box is styled by Internal CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section2 center-all">
+                <div style="text-align: center; margin: 10px auto">
+                    <h4 style="background-color: rgb(105, 155, 202); padding: 5px 10px;">All the Paragraph tags below are styled by inline CSS</h4>
+                    <p style="cursor: pointer; padding: 2px 0;">Cursor is Pointer</p>
+                    <p style="cursor: cell; padding: 2px 0;">Cursor is Cell</p>
+                    <p style="cursor: grab; padding: 2px 0;">Cursor is Grab</p>
+                    <p style="cursor: help; padding: 2px 0;">Cursor is Help</p>
+                    <p style="cursor: not-allowed; padding: 2px 0;">Cursor is Not-allowed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="https://github.com/purshottamxkumar" target="_blank"><button>Fork On Github</button></a>
+</body>
+</html>
